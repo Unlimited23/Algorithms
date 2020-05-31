@@ -4,6 +4,9 @@ const sort = (arr) => {
     let swapped = false;
     const len = arr.length;
 
+    // 1. Loop the array and if the current element
+    // is smaller than the previous one -> swap them
+    // 2. Repeat 1.) while there are no more elements to swap
     do {
         swapped = false;
 
